@@ -3,7 +3,7 @@ import { motion, useInView, AnimatePresence } from 'framer-motion'
 import {
   Heart, Users, Globe, BookOpen, Stethoscope, Home,
   Menu, X, ArrowRight, Mail, Phone, MapPin,
-  Facebook, Twitter, Instagram, Linkedin, Award,
+  Share2, Link2, MessageSquareShare, ExternalLink, Award,
 } from 'lucide-react'
 import heroImg from './assets/hero.png'
 import './App.css'
@@ -832,7 +832,7 @@ function Footer() {
               development since 2005. Building a world where no one is left behind.
             </p>
             <div className="flex gap-3">
-              {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
+              {[Share2, Link2, MessageSquareShare, ExternalLink].map((Icon, i) => (
                 <button
                   key={i}
                   className="w-10 h-10 bg-slate-800 hover:bg-amber-500 rounded-xl flex items-center justify-center group transition-all"
